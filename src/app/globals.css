@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Instrument Serif", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+}
+* { -webkit-font-smoothing: antialiased; }
+body { font-family: var(--font-body); }
+h1,h2,h3 { font-family: var(--font-display); }
